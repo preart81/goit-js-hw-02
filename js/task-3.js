@@ -1,6 +1,6 @@
 "use strict";
 
-function checkForSpam(message = "") {
+function checkForSpam(message) {
   // Функція checkForSpam(message) приймає рядок (параметр message), перевіряє
   // його на вміст заборонених слів spam і sale, і повертає результат перевірки.
   // Слова в рядку параметра message можуть бути в довільному регістрі, наприклад
